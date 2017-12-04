@@ -1,0 +1,46 @@
+
+name = Webts Themplate Custome
+description = Desgin hamid mohammadi saber:)
+package = Core
+version = VERSION
+core = 7.x
+
+; JavaScript
+; --------------
+; exclude[js][] = asset/js/index.js
+
+;stylesheets[print][] = css/print.css
+
+
+stylesheets[all][] = asset/css/menu.css
+stylesheets[all][] = asset/css/bootstrap.min.css
+stylesheets[all][] = asset/font/fontawesome.min.css
+stylesheets[all][] = asset/css/style.css
+scripts[] = asset/js/bootstrap.min.js
+
+
+
+
+regions[header] = Header
+regions[service] = Service
+regions[product] = Product
+regions[archive_one] = Archive with Image
+regions[archive_two] = Archive just text
+regions[catagory] = Catagory
+regions[content] = Content
+regions[article_footer] = Article Footer
+regions[menu_footer] = Menu Footer
+regions[menu_footer_pages] = Menu Footer Other Pages
+regions[desgin_type] = Desgin Type
+regions[service_link] = Service Link
+regions[copyright] = Copyright
+
+
+settings[shortcut_module_link] = 0
+
+
+; Information added by Drupal.org packaging script on 2017-06-21
+version = "7.56"
+project = "drupal"
+datestamp = "1498069849"
+

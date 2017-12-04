@@ -1,0 +1,102 @@
+
+* {
+  box-sizing: border-box;
+}
+*:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+ /* background: #4d5258;
+  margin: 0;
+  font-size: 16px;
+  color: #FFF;*/
+}
+
+
+nav {
+  position: relative;
+  margin: 0 auto;
+  z-index: 3;
+}
+.front .menu li a.active {
+    color: #fff;
+
+}
+.part-bottom-menu {
+    border-top: 1px solid #a9a9a9;
+}
+.front nav a {
+        color: #272727;
+}
+.front nav a:hover {
+    color: #fff;
+}
+ nav li {
+    display: inline-block;
+    transition: all .2s;
+}
+
+
+.background-menu {
+    background: #ffffff9e;
+    padding: 20px;
+}
+
+
+.background-menu-front{
+    /* padding: 20px; */
+    height: 124px;
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+}
+.social-network {
+    color: #fff;
+        float: right;
+
+}
+.part-top-menu {
+    height: 100px;
+}
+.address-part-top {
+    float: left;
+    margin-top: 35px;
+    color: #fff;
+}
+.user-part-top {
+    margin-top: 35px;
+    float: right;
+    color: #fff;
+}
+.logo-menu img {
+    margin-top: 10px;
+    width: 270px;
+    height: 110px;
+}
+.part-nav {
+    margin-top: 27px;
+}
+ul.links {
+    padding-right: 0px;
+}
+.menu nav a {
+    color: #c7c7c7;
+    text-decoration: none;
+    transition: all .3s;
+    padding: 7px 20px;
+
+}
+nav a:hover {
+  color: #fff;
+}
+
+
+
+header {
+  position: relative;
+  /*background-color: #FD7777;*/
+  /*padding: 10em 0 8em;*/
+  z-index: 2;
+}
+
